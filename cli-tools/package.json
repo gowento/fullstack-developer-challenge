@@ -1,0 +1,24 @@
+{
+  "name": "@gowento/full-stack-developer-challenge-cli-tools",
+  "version": "0.1.0",
+  "author": "Gowento <hackers@gowento.com> (https://www.gowento.com)",
+  "contributors": [],
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "generate-sample-locations": "node ./bin/generate-sample-locations.js",
+    "lint": "eslint .",
+    "test": "echo \"Error: No test were written\" && exit 1"
+  },
+  "dependencies": {
+    "csv-stringify": "5.3.3",
+    "esm": "3.2.25",
+    "faker": "4.1.0",
+    "yargs": "14.2.0"
+  },
+  "devDependencies": {
+    "eslint": "6.5.1",
+    "eslint-config-gowento": "6.3.0",
+    "prettier": "1.18.2"
+  }
+}
