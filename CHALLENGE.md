@@ -58,11 +58,11 @@ You may use any external helper, library, or tool that you feel would benefit yo
 
 Title | Description | Goal | Estimated difficulty
 --- | --- | --- | ---
-**Clean UX** | Some users requested the search form to be cleared between searches. | Implement a way to clear search input upon successful search. | ⭐️ _(React)_
+**Clear UX** | Some users requested the search form to be cleared between searches. | Implement a way to clear search input upon successful search. | ⭐️ _(React)_
 **Country breakdown** | For future press releases, the PR team want to gather precise data reports of market share and coverage. | Implement a tool that generates a CSV file reporting the number of franchisee locations per country. | ⭐️ _(Node.js)_
-**Hanging UI** | Some users reported that the Web App UI sometimes hangs when submitting their search. These reports seem to coincide with moments when the API server is restarted or unreachable. | Identify, diagnose, and implement a fix for reported bug. | ⭐️⭐️ _(React)_
+**Hanging UI** | Some users reported that the Web App UI sometimes hangs when submitting their search. These reports seem to coincide with moments when the API server is (re)started. | Identify, diagnose, and implement a fix for reported bug. | ⭐️⭐️ _(React)_
 **Rate limiter** | IT Security expressed concerns that the API is not rate limited. | Design and implement a simple rate limiter for the API. | ⭐️⭐️ _(Node.js)_
-**Recently searched** | Some users expressed desire to easily access their recent searches. | Design and implement a simple component showing the last five searches and a count of their results, as clickable elements. This history should be globally persisted. | ⭐️⭐️⭐️ _(React)_
+**Recently searched** | Some users expressed desire to easily access their recent searches. | Design and implement a simple component showing the last five searches and a count of their results, as clickable elements. This history should be locally persisted. | ⭐️⭐️⭐️ _(React)_
 **Slow Boot** | DevOps noticed that every time the API attempts to start, there is a huge spike in memory and CPU usage. They would like it fixed to reduce VM sizing. | Diagnose and implement a fix for reported memory and CPU surge. | ⭐️⭐️⭐️ _(Node.js)_
 
 ## Bonus
