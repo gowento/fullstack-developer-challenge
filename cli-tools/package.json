@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "generate-sample-locations": "node ./bin/generate-sample-locations.js",
+    "generate-sample-locations": "node -r esm ./bin/generate-sample-locations.js",
     "lint": "eslint .",
     "test": "echo \"Error: No test were written\" && exit 1"
   },

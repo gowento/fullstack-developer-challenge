@@ -6,12 +6,12 @@ It is a [RESTful](https://en.wikipedia.org/wiki/Representational_state_transfer)
 
 ## Getting started
 
-This project uses [Yarn](https://yarnpkg.com/) as a dependency manager.
+This project uses [NPM](https://npmjs.com/) as a dependency manager.
 
 To get started, you should first install all dependencies:
 
 ```bash
-yarn
+npm i
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ yarn
 To run the API server, use the `start` script:
 
 ```bash
-yarn start
+npm run start
 ```
 
 The API server listens on port 4000.
@@ -56,17 +56,17 @@ Search for postal code information in the database of valid postal codes.
 To run the API in watch mode:
 
 ```bash
-yarn watch
+npm run watch
 ```
 
 To run the linter against the [standard ESLint config used in Gowento projects](https://github.com/gowento/eslint-config-gowento):
 
 ```bash
-yarn lint
+npm run lint
 ```
 
 To run all tests:
 
 ```bash
-yarn test
+npm run test
 ```

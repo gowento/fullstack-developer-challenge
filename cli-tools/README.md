@@ -6,12 +6,12 @@ It is set of commands-line tools, and was bootstrapped with [create-esm](https:/
 
 ## Getting started
 
-This project uses [Yarn](https://yarnpkg.com/) as a dependency manager.
+This project uses [NPM](https://npmjs.com/) as a dependency manager.
 
 To get started, you should first install all dependencies:
 
 ```bash
-yarn
+npm i
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ The `generate-sample-locations` allows you to randomly generate a sample of fran
 
 ```bash
 # Generate 1000 random locations and store them in the `./sample-locations.csv` file
-yarn generate-sample-locations -n 1000 --file ./sample-locations.csv
+npm run generate-sample-locations -- -n 1000 --file ./sample-locations.csv
 ```
 
 ## Development
@@ -30,11 +30,11 @@ yarn generate-sample-locations -n 1000 --file ./sample-locations.csv
 To run the linter against the [standard ESLint config used in Gowento projects](https://github.com/gowento/eslint-config-gowento):
 
 ```bash
-yarn lint
+npm run lint
 ```
 
 To run all tests:
 
 ```bash
-yarn test
+npm run test
 ```

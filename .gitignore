@@ -1,10 +1,12 @@
+### VSCode
+.vscode
+### Webstorm
+.idea
 ###> github/gitignore/Node.gitignore ###
 # Logs
 logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
@@ -65,9 +67,6 @@ typings/
 
 # Output of 'npm pack'
 *.tgz
-
-# Yarn Integrity file
-.yarn-integrity
 
 # dotenv environment variables file
 .env
@@ -171,10 +170,6 @@ Temporary Items
 
 # Override: "gatsby files"
 !public
-
-# Yarn Plug'n'Play
-.pnp/
-.pnp.js
 
 # create-react-app build
 /web-app/build/
